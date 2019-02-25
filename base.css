@@ -1,0 +1,39 @@
+
+@font-face { font-family: roboto-regular; 
+       src: url('Roboto-Regular.ttf'); }
+.jumbotron{
+    color: white;
+    margin:40px 0px 0px 0px;
+	background-color: rgb(0,0,0,0.5);
+}.nav-link{
+	font-size: 2Vmax;
+}
+body, html {
+  height: 100%;
+  font-family:roboto-regular;
+}
+
+.parallax {
+ /* The image used */
+ background-image: url('texture.jpg');
+ /* Full height */
+ height: 90%; 
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.card-body{
+	color: white;
+	background-color: rgb(0,0,0,0.5);
+}
+.dropdownMenuButton{
+	color:white;
+}
+.foot{
+	color: white;
+}
+.card{
+   	color: white;
+}
